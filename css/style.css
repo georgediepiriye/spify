@@ -90,7 +90,6 @@ button:hover{
     background: black;
     width: 80%;
     margin: -240px auto 0 auto;
-    background: linear-gradient(to bottom right, #4b00d7, #fa4c50);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .second-box-container{
@@ -120,4 +119,37 @@ button:hover{
 }
  .details-text ul li{
      color: black;
+ }
+ .strenghts{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/mission-background.jpg);
+    width: 100%;
+    height: 1010px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+
+ }
+
+ .strenghts-text{
+    display: block;
+    width: 75%;
+    margin: -180px auto 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff5ee;
+    text-align: center;
+    color: black;
+    padding: 50px 70px;
+ }
+ .strenghts-text .box h2{
+    border-bottom: 2px solid #c2337b;
+    padding-bottom: 5px;
+ }
+
+ .strenghts-text .box {
+     margin-top: 10%;
+     line-height: 1.5;
  }
