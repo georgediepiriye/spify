@@ -2,7 +2,8 @@
 body{
   margin: 0;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color:  seashell ;;
+  color:  seashell ;
+  
 }
 header{
     width: 100%;
@@ -29,7 +30,7 @@ nav ul li{
 }
 li, a{
     text-decoration: none;
-    font-family: Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: seashell ;
 }
 li, a:hover{
@@ -83,3 +84,36 @@ button:hover{
 .home-right {
     height: auto;
 }
+
+.second-box{
+    display: flex;
+    background: black;
+    width: 80%;
+    margin: -240px auto 0 auto;
+    background: linear-gradient(to bottom right, #4b00d7, #fa4c50);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second-box-container{
+    display: block;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.branding{
+    display: flex;
+    margin: 10% auto 0 auto;
+    color: black;
+    width: 85%;
+
+}
+.branding h2{
+    font-weight: bold;
+    border-bottom: 2px solid #c2337b;
+}
+.branding-left{
+    line-height: 2.5;
+}
+ .branding-left ul li{
+     color: black;
+ }
