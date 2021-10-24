@@ -100,20 +100,24 @@ button:hover{
     
 }
 
-.branding{
+.details-box{
     display: flex;
     margin: 10% auto 0 auto;
     color: black;
     width: 85%;
 
 }
-.branding h2{
+.details-box h2{
     font-weight: bold;
     border-bottom: 2px solid #c2337b;
 }
-.branding-left{
+
+.details-box img{
+    width: 50%;
+}
+.details-text{
     line-height: 2.5;
 }
- .branding-left ul li{
+ .details-text ul li{
      color: black;
  }
