@@ -1,7 +1,8 @@
 
 body{
   margin: 0;
-  font-family: Helvetica, sans-serif;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:  seashell ;;
 }
 header{
     width: 100%;
@@ -12,6 +13,7 @@ header{
     align-items: center;
     padding: 5px;
     position: fixed;
+    z-index: 1;
 }
 header img{
     height: 32px;
@@ -35,7 +37,49 @@ li, a:hover{
 }
 
 .home{
-    background-image: url('/images/header-background.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/header-background.jpg);
     width: 100%;
     height: 1010px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.home-container{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+    margin-top: 22%;
+
+}
+.home-container img{
+    height: auto;
+    width:45% ;
+    margin:0 40px;
+}
+.home-right{
+    width: 45%;
+    margin: 0 40px;
+}
+button{
+    color: seashell;
+    padding: 15px 25px;
+    background-color:#c2337b ;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    margin-top: 5px;
+}
+button:hover{
+    background: none;
+    border: 1px solid seashell;
+}
+.home-right {
+    height: auto;
 }
