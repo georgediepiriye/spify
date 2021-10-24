@@ -153,3 +153,10 @@ button:hover{
      margin-top: 10%;
      line-height: 1.5;
  }
+
+footer{
+    background-color: black;
+    color: seashell;
+    padding: 20px;
+    text-align: center;
+}
